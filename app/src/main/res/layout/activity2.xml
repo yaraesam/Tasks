@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="#F53D62"
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:textSize="17sp"
+            android:text="your Profile"
+
+            android:textStyle="bold"
+            android:textColor="#FFFF"     />
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/prof"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="17sp"
+            android:text="change your profile photo"
+            android:textColor="#FFFF"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:textSize="18sp"
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="#ffff"
+
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lange porl"
+            android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+            android:drawablePadding="25dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="50dp"
+            android:textSize="14sp"/>
+        <View
+            android:layout_width="330dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="50sp"
+            android:background="#EFEFF4" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ghidaa moh"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="25dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="50dp"
+            android:textSize="14sp"/>
+        <View
+            android:layout_width="330dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="50sp"
+            android:background="#EFEFF4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="http/www.gh.com"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/ic_language_black_24dp"
+            android:drawablePadding="25dp"
+            android:layout_marginStart="50dp"
+            android:textSize="14sp"/>
+        <View
+            android:layout_width="330dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="50sp"
+            android:background="#EFEFF4" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="palestine gaza gaza"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/ic_insert_drive_file_black_24dp"
+            android:drawablePadding="25dp"
+            android:layout_marginStart="50dp"
+            android:textSize="14sp"/>
+        <View
+            android:layout_width="330dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="50sp"
+            android:background="#EFEFF4" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clasifed information"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:textSize="18sp"
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+        android:background="#ffff"
+
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ghidaa@gmail.com"
+            android:drawablePadding="25dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="50dp"
+            android:textSize="14sp"/>
+        <View
+            android:layout_width="330dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="50sp"
+            android:background="#EFEFF4" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="972343674"
+            android:layout_marginTop="16dp"
+            android:drawablePadding="25dp"
+            android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+            android:layout_marginStart="50dp"
+            android:textSize="14sp"/>
+        <View
+            android:layout_width="330dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="50sp"
+            android:background="#EFEFF4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="female"
+            android:drawablePadding="25dp"
+            android:drawableLeft="@drawable/ic_supervisor_account_black_24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="50dp"
+            android:textSize="14sp"/>
+
+
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="40dp"
+        android:layout_width="308dp"
+        android:background="@drawable/button"
+        android:text="Done"
+        android:textColor="#ffff"
+        />
+</LinearLayout>

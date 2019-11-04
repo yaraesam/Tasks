@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EFEFF4"
+    tools:context=".MainActivity">
+
+
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+          android:orientation="vertical"
+          android:background="#FCFCFD"
+
+        >
+         <ImageView
+             android:layout_width="24dp"
+             android:layout_height="24dp"
+
+             android:layout_marginTop="28sp"
+              android:layout_marginStart="16dp"
+             />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+           android:layout_marginTop="24dp"
+            android:textSize="24sp"
+           android:text="your Profile"
+            android:textColor="#000"     />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:textSize="17sp"
+              android:text="%40 completed"
+                   />
+
+      </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp"
+        android:paddingBottom="15dp"
+        android:layout_marginBottom="10dp">
+        <ImageView
+        android:layout_width="80dp"
+            android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+            android:layout_marginTop='30dp'
+        android:layout_margin="20dp"
+            android:src="@drawable/prof" />
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. Sherley "
+                android:textColor="#000"
+                android:textSize="17dp"
+                android:layout_marginRight="20dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:paddingTop="5dp"
+                android:text="Abraham"
+                android:textColor="#000"
+                android:layout_marginRight="20dp"
+                android:textSize="17dp" />
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="vertical"
+        android:background="#FCFCFD"
+
+        >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#FFFF"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textSize="17sp"
+            android:text="Mobile Nomber"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:textSize="17sp"
+            android:text="+974355636"
+            android:layout_marginTop="3dp"
+
+            />
+        <View
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="120sp"
+            android:background="#0000"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:background="#FFFF"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textSize="17sp"
+        android:text="Email ID"
+        android:textColor="#000"
+        android:layout_marginTop="3dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:textSize="17sp"
+        android:text="Enter Email"
+        android:layout_marginTop="3dp"
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#FFFF"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textSize="17sp"
+            android:text="Gender"
+            android:textColor="#000"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="215dp"
+            android:textSize="17sp"
+            android:text="Select"
+            android:layout_marginTop="3dp"
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#FFFF"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textSize="17sp"
+            android:text="Date of birth"
+            android:textColor="#000"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175dp"
+            android:textSize="17sp"
+            android:text="mm/dd/yy"
+            android:layout_marginTop="3dp"
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#FFFF"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textSize="17sp"
+            android:text="Experince"
+            android:textColor="#000"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:textSize="17sp"
+            android:text="+add"
+            android:layout_marginTop="3dp"
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#FFFF"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textSize="17sp"
+            android:text="Emegncy contact"
+            android:textColor="#000"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:textSize="17sp"
+            android:text="+add"
+            android:layout_marginTop="3dp"
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#FFFF"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textSize="17sp"
+            android:text="Location"
+            android:textColor="#000"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="210dp"
+            android:textSize="17sp"
+            android:text="Gaza"
+            android:layout_marginTop="3dp"
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:background="#FCFCFD"
+
+        >
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button"
+        android:text="save"
+        android:textColor="#ffff"
+        />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
